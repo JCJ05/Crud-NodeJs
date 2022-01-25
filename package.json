@@ -1,0 +1,26 @@
+{
+  "name": "crud-nodejs",
+  "version": "1.0.0",
+  "description": "This is a Website-App using NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCJ05/Crud-NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCJ05/Crud-NodeJs/issues"
+  },
+  "homepage": "https://github.com/JCJ05/Crud-NodeJs#readme",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "hbs": "^4.2.0"
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ {{> head}}
+<body>
+    
+      <h1 class="text-center mt-5">{{formulario}}</h1>
+
+      <div class="container">
+        
+         <div class="">
+
+           <form class="row g-2" action="/form" method="post">
+          
+               <div class="col-6">
+                 
+                  <label for="name">Tu nombre: </label>
+                  <input type="text" name="name" class="form-control" placeholder="Tu nombre ..." autocomplete="off">
+                    
+               </div>
+
+               
+               <div class="col-6">
+                 
+                  <label for="apellido">Tu apellido: </label>
+                  <input type="text" name="apellido" class="form-control" placeholder="Tu apellido ..." autocomplete="off">
+                    
+               </div>
+
+               <div class="col-6">
+                 
+                  <label for="correo">Tu correo: </label>
+                  <input type="text" name="correo" class="form-control" placeholder="Tu correo ..." autocomplete="off">
+                    
+               </div>
+
+                <div class="col-6">
+                 
+                  <label for="direccion">Tu direccion: </label>
+                  <input type="text" name="direccion" class="form-control" placeholder="Tu direccion ..." autocomplete="off">
+                    
+               </div>
+
+             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-info" type="submit">Enviar</button>
+            </div>
+              
+
+           </form>
+
+
+         </div>
+
+      </div>
+
+</body>
+</html>
